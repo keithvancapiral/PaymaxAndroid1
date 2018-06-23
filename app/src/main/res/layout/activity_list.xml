@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/tVwallet"
+        android:textColor="@android:color/holo_red_dark"
+        android:textEditNoPasteWindowLayout="?attr/actionModeSplitBackground"
+        />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/balance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+
+        />
+
+
+    <GridLayout
+        android:columnCount="4"
+        android:layout_height="80dp"
+        android:layout_width="400dp"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/transaction"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:background="@mipmap/transactions"
+
+            />
+
+        <Button
+            android:id="@+id/inbox"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/inbox"
+            />
+
+
+
+        <Button
+            android:id="@+id/walletinfo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/wallet"
+            />
+        <Button
+            android:id="@+id/announcement"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@mipmap/announcements"
+            />
+
+
+    </GridLayout>
+
+    <GridLayout android:layout_height="400dp"
+        android:layout_width="400dp"
+        android:layout_marginTop="150dp"
+        android:columnCount="4"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+
+
+        >
+
+        <Button android:id="@+id/BillsPayments"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="BP"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+
+
+        <Button android:id="@+id/CreditCard"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="CC"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <Button android:id="@+id/MobileLoad"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="ML"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button android:id="@+id/AirTransport"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="AT"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+
+        <Button android:id="@+id/LandTransport"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="LT"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+        <Button android:id="@+id/FinancialServices"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="FS"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+
+        <Button android:id="@+id/RealEstate"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="RE"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+
+        <Button android:id="@+id/Eload"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="EL"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+
+        <Button android:id="@+id/Publications"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="PB"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+
+            />
+
+        <Button android:id="@+id/MemorialPlans"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="MP"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+
+        <Button android:id="@+id/PrepaidServices"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="PS"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+
+        <Button android:id="@+id/OtherServices"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="OS"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:background="#FFE21B1B"
+            />
+    </GridLayout>
+
+
+
+</RelativeLayout>

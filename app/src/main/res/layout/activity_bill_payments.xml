@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/bill"
+        android:textColor="#FFE21B1B"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="70dp"
+        android:background="@mipmap/electricity" />
+
+    <Button
+        android:id="@+id/btnWater"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="190dp"
+        android:background="@mipmap/water" />Te
+
+    <Button
+        android:id="@+id/btnCabletv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"
+
+        android:background="@mipmap/cabletv" />
+
+    <Button
+        android:id="@+id/btnTelecoms"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="70dp"
+
+        android:background="@mipmap/telecoms" />
+
+    <Button
+        android:id="@+id/dtnDonations"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="70dp"
+        android:background="@mipmap/donations" />
+
+    <Button
+        android:id="@+id/btnInsurance"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="190dp"
+        android:background="@mipmap/insurance" />
+
+    <Button
+        android:id="@+id/btnGovernment"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="190dp"
+        android:background="@mipmap/government" />
+
+    <Button
+        android:id="@+id/btnOthers"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="190dp"
+        android:background="@mipmap/others" />
+
+
+
+</RelativeLayout>

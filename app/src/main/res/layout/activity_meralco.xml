@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeralcoActivity">
+
+    <TextView
+        android:id="@+id/tvMeralco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meralco"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="112dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="240dp"
+        app:srcCompat="@mipmap/meralco" />
+
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="190dp"
+        android:text="26 Digit Account Number"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="270dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:id="@+id/AccountNumber"
+        android:maxLength="26"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="120dp"
+        android:text="Amount in Pesos"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="120dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/AmountPesos"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="120dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="180dp"
+        android:text="Convinience Fee"
+
+        />
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="120dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="175dp"
+        android:id="@+id/ConvinienceFee"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="110dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="15dp"
+        android:text="Pay for"
+        />
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="270dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/PayFor"
+        android:inputType="text"
+
+        />
+
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="190dp"
+        android:text="Customer Contact Number"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="270dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/ContactNumber"
+        android:inputType="number"
+        android:maxLength="11"
+        />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="90dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="250dp"
+        android:text="Submit"
+        android:background="#FFE21B1B"
+        android:id="@+id/Submit"
+        />
+
+</RelativeLayout>

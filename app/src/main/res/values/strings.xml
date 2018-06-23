@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PayMax</string>
+    <string name="splash">Splash</string>
+    <string name="lock">Lock</string>
+    <string name="pin">pin</string>
+    <string name="lock1">lock</string>
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="dot">••••</string>
+    <string name="pinbutton">Enter</string>
+    <string name="tVwallet">Wallet Balance</string>
+    <string name="balance">1000.00</string>
+    <string name="bill">BILLS PAYMENTS</string>
+    <string name="meralco">MERALCO</string>
+
+
+</resources>

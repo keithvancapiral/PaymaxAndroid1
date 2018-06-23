@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrintActivity">
+    <TextView
+        android:id="@+id/tvMeralco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meralco"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="112dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="240dp"
+        app:srcCompat="@mipmap/meralco" />
+
+        <Button
+           android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:background="#FFF73838"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="10dp"
+            android:text="X"
+            />
+
+        <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="TRANSACTION COMPLETED!"
+    android:layout_marginTop="150dp"
+    android:textColor="#fa0e0e"
+    android:layout_marginLeft="15dp"
+    />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Account Number: "
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Amount in Pesos: "
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Convinience Fee: "
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Pay For: "
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Customer Number: "
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="15dp"
+        />
+
+
+
+    <!--intent extra-->
+
+    <TextView
+        android:id="@+id/accNumber"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Account Number"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/AmountPesos"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Amount in Pesos"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/ConFee"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Convinience Fee"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/PayFor"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Pay For"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="150dp"
+        />
+
+    <TextView
+        android:id="@+id/ConNumber"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Customer Number"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"
+        />
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="15dp"
+        android:text="RECEIPT"
+        android:background="#ff3838"
+        />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="120dp"
+        android:text="SMS"
+        android:background="#ff3838"
+        />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="220dp"
+        android:text="EMAIL"
+        android:background="#ff3838"
+        />
+
+
+
+
+
+</RelativeLayout>
