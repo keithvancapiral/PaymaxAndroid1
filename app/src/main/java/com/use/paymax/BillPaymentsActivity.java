@@ -13,7 +13,7 @@ public class BillPaymentsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bill_payments);
         
-        Button button =findViewById(R.id.button12);
+        Button button =(Button) findViewById(R.id.button12);
 
 
 

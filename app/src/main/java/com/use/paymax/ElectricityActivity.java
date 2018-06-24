@@ -13,7 +13,7 @@ public class ElectricityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_electricity);
 
-        Button btnElectricity = findViewById(R.id.btnMeralco2);
+        Button btnElectricity =(Button) findViewById(R.id.btnMeralco2);
 
 
         btnElectricity.setOnClickListener(new View.OnClickListener(){

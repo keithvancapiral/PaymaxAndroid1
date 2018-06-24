@@ -12,7 +12,7 @@ import android.widget.EditText;
 public class MeralcoActivity extends AppCompatActivity {
     EditText AccountNumber,AmountPesos,ConvinienceFee,PayFor,ContactNumber;
     Button Submit;
-
+    String accountNumber,amountPesos,conFee,payFor,contactNumber;
 
 
 
@@ -23,20 +23,12 @@ public class MeralcoActivity extends AppCompatActivity {
 
 
 
-        AccountNumber = findViewById(R.id.AccountNumber);
-        AmountPesos = findViewById(R.id.AmountPesos);
-        ConvinienceFee =findViewById(R.id.ConvinienceFee);
-        PayFor =findViewById(R.id.PayFor);
-        ContactNumber = findViewById(R.id.ContactNumber);
-        Submit  = findViewById(R.id.Submit);
-
-        final  String accountNumber = AccountNumber.getText().toString();
-        final String amountPesos = AmountPesos.getText().toString();
-        final String conFee = ConvinienceFee.getText().toString();
-        final String payFor = PayFor.getText().toString();
-        final String contactNumber = ContactNumber.getText().toString();
-
-
+        AccountNumber = (EditText)findViewById(R.id.AccountNumber);
+        AmountPesos = (EditText)findViewById(R.id.AmountPesos);
+        ConvinienceFee =(EditText)findViewById(R.id.ConvinienceFee);
+        PayFor =(EditText)findViewById(R.id.PayFor);
+        ContactNumber = (EditText) findViewById(R.id.ContactNumber);
+        Submit  = (Button)findViewById(R.id.Submit);
 
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +42,12 @@ public class MeralcoActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
+
+                        accountNumber = AccountNumber.getText().toString();
+                        amountPesos = AmountPesos.getText().toString();
+                        conFee = ConvinienceFee.getText().toString();
+                        payFor = PayFor.getText().toString();
+                        contactNumber = ContactNumber.getText().toString();
 
                         Intent intent = new Intent(MeralcoActivity.this, PrintActivity.class);
                         intent.putExtra("accountNumber", accountNumber);
@@ -74,19 +72,5 @@ public class MeralcoActivity extends AppCompatActivity {
 
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

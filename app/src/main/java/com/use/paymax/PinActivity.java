@@ -18,8 +18,8 @@ public class PinActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pin);
 
 
-       final EditText eTPin1 = findViewById(R.id.eTPin1);
-        Button btnPin =findViewById(R.id.btnPin);
+       final EditText eTPin1 = (EditText) findViewById(R.id.eTPin1);
+        Button btnPin =(Button) findViewById(R.id.btnPin);
 
         final String pin1 = eTPin1.getText().toString();
 

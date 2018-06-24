@@ -13,7 +13,7 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        Button btnBP = findViewById(R.id.BillsPayments);
+        Button btnBP = (Button) findViewById(R.id.BillsPayments);
 
 
         btnBP.setOnClickListener(new View.OnClickListener(){
